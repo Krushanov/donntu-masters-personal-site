@@ -1,0 +1,24 @@
+ru
+Крушанов Александр Игоревич
+Подсчёт эффективности и надёжности реляционных баз данных. Моделирование кластеров систем
+Программная инженерия
+
+ua
+Крушанов Олександр Игорович
+Підрахунок ефективності і надійності реляційних баз даних. Моделювання кластерів систем
+Програмна інженерія
+
+en
+Alexander Krushanov
+Counting the effectiveness and reliability of relational databases. Modeling system clusters
+Software engineering
+
+fr
+Alexander Krushanov
+Compter l'efficacit? et la fiabilit? des bases de donn?es relationnelles. Mod?lisation de grappes de syst?mes
+G?nie logiciel
+
+de
+Alexander Krushanov
+Z?hlung der Effektivit?t und Zuverl?ssigkeit relationaler Datenbanken. Modellierung von Systemclustern
+Softwareentwicklung
