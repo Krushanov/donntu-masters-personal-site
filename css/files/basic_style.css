@@ -12,7 +12,7 @@ body:lang(uk) q, body:lang(de) q { quotes: "\201E" "\201C"; }
 body:lang(ru) q, body:lang(fr) q { quotes: "\00AB" "\00BB" "\201E" "\201C"; }
 
 h1 { /* Заголовок страницы */
-  font: 40px Roboto;
+  font: 31px Roboto;
   line-height: 100%;
   text-align: center;
   padding: 0pt 0pt 0pt 0pt;
@@ -137,8 +137,9 @@ a:visited { /* Посещенная ссылка */
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
 
 #topblock { /* Верхний блок (Флаги и ДоННТУ) */
-    min-height: 36px;       
-  border-bottom: solid 1pt #b4cdd4; 
+  min-height: 36px;       
+  border-bottom: solid 1pt #b4cdd4;
+  background: rgba(0,0,0, .40);
 }
 
 #langbox { /* Блок флагов */
@@ -174,6 +175,7 @@ a:visited { /* Посещенная ссылка */
 
 #headertext { /* Блок шапки (только текст) */
   padding: 10pt 10pt 10pt 10pt;
+  background: rgba(0,0,0, .40);
 }
 
 .img { /* Блок с рисунком */
