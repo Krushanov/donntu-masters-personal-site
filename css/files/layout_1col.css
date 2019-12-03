@@ -4,9 +4,9 @@
 }
 	
 #maintext { /* Блок основного текста */
- 	font: 14pt/120% Times new roman, serif;
+ 	font: 20px Roboto, serif;
 	line-height: 110%;
-  padding: 15pt 0pt 15pt 10pt;
+  /*padding: 15pt 0pt 15pt 10pt;*/
 	position: relative; 
 	display: block;
 }
