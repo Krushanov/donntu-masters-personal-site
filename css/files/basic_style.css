@@ -22,11 +22,11 @@ h1 { /* Заголовок страницы */
 }
 
 h2 { /* Подзаголовок страницы (названия подразделов) */
-  font: bold 15pt Roboto, serif;
+  font: bold 24px Roboto, serif;
   text-align: left;
   text-indent: 25pt;
   margin: 20pt 10pt 10pt 10pt;
-  color: #0000a3;
+  color: #4149f2;
 }
 
 h3 { /* Подзаголовок страницы (названия подподразделов) */
@@ -69,12 +69,11 @@ h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по цен
 }
 
 p { /* Абзац */
-    text-indent: 20pt;
-    font: 15pt/120% Times New Roman, serif; 
-    margin: 0pt 0pt 0pt 0pt;
-    padding: 2pt 15pt 3pt 15pt;         
-    text-align: justify;
-
+  text-indent: 20pt;
+  font: 13pt Roboto, serif; 
+  margin: 0pt 0pt 0pt 0pt;
+  padding: 2pt 15pt 3pt 15pt;         
+  text-align: justify;
 }
 
 img { 
@@ -105,7 +104,7 @@ ul.content { /* Содержание в реферате */
 
 li { /* Элемент списка */
   margin-left: 25pt;
-  font: 15pt Times new roman, serif;
+  font: 14pt Roboto, serif;
   /*padding: 0 5pt 5pt 0pt; */
 }
 
@@ -120,18 +119,22 @@ li.ct2 { /* Элемент содержания в реферате (уровень 2) */
 }
 
 a { /* Простая ссылка */
-    font: 14pt Roboto, serif;
-    color: blue;    
+  font: 14pt Roboto, serif;
+  color: black;
 }
 
 a:hover { /* Курсор наведен на ссылку */
-    color: firebrick;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 
-a:visited { /* Посещенная ссылка */
-    color: #915c9e; 
+a:hover { /* Курсор наведен на ссылку */
+  transition: color .2s ease-in-out;
 }
+
+/*a:visited {  Посещенная ссылка 
+  color: black;
+}*/
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
@@ -254,22 +257,22 @@ table#resume tr.even:hover { background-color: #eefbff;} /* Курсор наведен на че
 .list { margin: 5pt 0pt 12pt 25pt; }
 
 .list p { /* Абзац внутри элемента списка */
-    text-indent: 0pt;
-    margin: 4pt 0pt 0pt 0pt;
+  text-indent: 0pt;
+  margin: 4pt 0pt 0pt 0pt;
 }
 
 .list .cat { /* Название категории (автор, описание, источник) в описании пункта списка */
-    color: green;
-    font-weight: bold;
+  color: #4149f2;
+  font-weight: bold;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
 /* ------------- ТАБЛИЦА ОТЧЕТА О ПОИСКЕ  ------------------------------------------------------------------- */
 
 table.search { /* Сама таблица */
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 40pt;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40pt;
   margin-top: 10pt;
   border-collapse:collapse;
   padding:0px;
