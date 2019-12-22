@@ -297,7 +297,7 @@ table.search td.cn { /* Все остальные столбцы */
   text-align: center; 
 }
 
-table.search td.cspan { padding: 15pt 5pt 5pt 0pt;} /* Объединенный столбец (название языка)*/ 
+table.search td.cspan { padding: 8pt 5pt 8pt 0pt;} /* Объединенный столбец (название языка)*/ 
 
 table.search tr.odd { background-color: white; }    /* Нечетная строка */  
 table.search tr.even { background-color: #f5f5f5;}  /* Четная строка */
