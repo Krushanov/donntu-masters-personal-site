@@ -14,8 +14,8 @@
 
         <div id="topblock">
             <div id="langbox">
-                <a href="index.htm"><img src="../images/ru.png" alt="Ðóññêèé" title="Ðóññêèé" width="24" height="20"></a> &nbsp; 
-                <a href="indexu.htm"><img src="../images/ua.png" alt="Óêðà¿íñüêà" title="Óêðà¿íñüêà" width="24" height="20"></a> &nbsp;
+                <a href="index.htm"><img src="../images/ru.png" alt="Ð ÑƒÑÑÐºÐ¸Ð¹" title="Ð ÑƒÑÑÐºÐ¸Ð¹" width="24" height="20"></a> &nbsp; 
+                <a href="indexu.htm"><img src="../images/ua.png" alt="Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°" title="Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°" width="24" height="20"></a> &nbsp;
             </div>
             <div id="donntu">
                 <a href="http://donntu.org/index.php?lang=eng" target="_blank">DonNTU</a> &nbsp;
@@ -145,7 +145,7 @@
 
             <p>Although database fragmentation can simplify scaling and improve performance, it can also impose certain limitations. In this section, we will discuss some of these limitations and situations in which it is better not to use sharding at all.</p>
 
-            <p>The first problem that people face when using fragmentation is the difficulty of correctly implementing such an architecture. Incorrectly fragmented data can lead to data loss or damage to tables. But even if everything is done correctly, fragmentation can have a significant impact on your team’s workflows. Instead of accessing and managing data from one point, team members will have to manage data in several segments, which may interfere with the work of some groups.</p>
+            <p>The first problem that people face when using fragmentation is the difficulty of correctly implementing such an architecture. Incorrectly fragmented data can lead to data loss or damage to tables. But even if everything is done correctly, fragmentation can have a significant impact on your teamâ€™s workflows. Instead of accessing and managing data from one point, team members will have to manage data in several segments, which may interfere with the work of some groups.</p>
 
 			<p>The problem that is sometimes encountered after database fragmentation is that the segments ultimately vary greatly in size. Suppose you have a database with two separate segments: one for customers whose last names begin with letters from A to M, and the second for those whose last names begin with letters from N to Z. However, the application serves a lot of users whose last names begin with the letter G. Accordingly, the first segment gradually accumulates more data than the second. This slows down the application while serving a significant portion of your users. In this case, any of the benefits of database fragmentation is negated by slowdowns and crashes. Most likely, the database will need to be restored and reconfigured to ensure more even distribution of data.</p>
             <p>Another significant drawback is that after fragmenting the database, it can be very difficult to return it to the previous architecture. Database backups made before fragmentation do not contain data recorded after fragmentation. Therefore, to restore the original architecture, it will be necessary to combine the new segmented data with the old backups or, conversely, convert the segmented database back to a single database, which will be time consuming and expensive.</p>
